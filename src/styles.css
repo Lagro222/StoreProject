@@ -1,0 +1,14 @@
+/* Applique cela dans ton fichier styles.css global */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #050505; /* Le noir profond du thème */
+  color: #ffffff;
+}
+
+/* Pour éviter les zones blanches résiduelles autour de tes composants */
+app-root {
+  display: block;
+  min-height: 100vh;
+  background-color: #050505;
+}
