@@ -46,7 +46,12 @@ export class Product {
      this._productId = productID;
      this._prouctPrice = productPrice;
     }
-
+    
+    
+    public hello() {
+        console.log("hello world");
+        
+    }
     
 }
 
